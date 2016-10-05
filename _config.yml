@@ -1,0 +1,29 @@
+title: Joe Cohen
+description: Hello ;)
+url: https://joecohens.com
+author:
+  name: Joe Cohen
+  picture: https://github.com/joecohens.png
+  twitter: joecohens
+
+twitter:
+  username: joecohens
+
+logo: https://github.com/joecohens.png
+
+google_site_verification: a
+
+permalink: /:year/:title/
+
+exclude: [Gemfile, Gemfile.lock, LICENSE, README.md]
+
+sass:
+  style: compressed
+
+gems:
+  - jekyll-feed
+  - jekyll-mentions
+  - jekyll-redirect-from
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jemoji
