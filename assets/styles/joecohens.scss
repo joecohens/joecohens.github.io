@@ -26,23 +26,24 @@ img:not(.emoji) {
 }
 
 a {
-  color: #2388db;
+  color: #000;
+  font-weight: bold;
 
   &:hover {
+    background: #000;
     color: #fff;
-    background: #2388db;
     text-decoration: none;
   }
 }
 
 main {
-  max-width: 700px;
   margin: 40px;
+  max-width: 700px;
 }
 
 hr {
   background: #eee;
-  border: none;
+  border: 0;
   height: 1px;
 }
 
